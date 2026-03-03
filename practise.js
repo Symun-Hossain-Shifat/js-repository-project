@@ -52,13 +52,61 @@ const student = {
 }
 let nameproperty ="name";
 // console.log(student[nameproperty]);
-console.log(student.name.sala);
+// console.log(student.name.sala);
+// const user = {
+//   name: "Shifat",
+//   address: {
+//     city: "Dhaka"
+//   }
+// };
+
+
+// console.log(user.address.phone); 
+function checkvariable (){
+    let name = 'shifat';
+    var color = "green";
+    const country = 'india'
+    if( 0 === 0){
+        console.log(name)
+        console.log(color)
+        console.log(country)
+    }
+}
+// checkvariable();
+const all = [23,65,45,87];
+// const maxone = (arr) => {
+//     let maxnumber = arr[0] ;
+//     for(const number of all){
+//  if(number> maxnumber){
+//     maxnumber = number;
+//  }
+//     }
+//     return maxnumber;
+// }
+// console.log(maxone(all));
+// console.log(Math.max(...all)) ;
+all.push(100);
+
+// console.log(all);
 const user = {
-  name: "Shifat",
-  address: {
-    city: "Dhaka"
-  }
-};
-
-
-console.log(user.address.phone); 
+ud: 101,
+email : 'shifat',
+adress: {
+    city :'dhaka',
+    country:"india"
+}
+}
+let email = user.email;
+// console.log(email);
+// delete user.adress;
+// console.log(Object.values(user))
+// console.log(Object.keys(user))
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const finalarr = [...arr1,...arr2];
+finalarr.push(7);
+finalarr.unshift(0);
+// console.log(finalarr);
+const us = { name: "Shifat", age: 19 };
+const fun = {...us,color:'shik'};
+console.log(fun);
